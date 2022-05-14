@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/obra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./img/casa.png" alt=""></a>
+            </div>
+
+            <div class="menu-hamb" >
+                <div class="menu-toggle" onclick="openMenu()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu-mobile">
+                    <ul class="header-menu">
+                        <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                        <li ><a class="login"  href="login.html">LOGIN</a></li>
+                        <li ><a class="cadastro" href="cadastro.html">CADASTRO</a></li>
+                    </ul>
+                    <div>
+                        <a  href=""><img class="redes-sociais" src="./img/facebook.png" alt=""></a>
+                        <a  href=""><img class="redes-sociais" src="./img/005-instagram.png" alt=""></a>
+                        <a  href=""><img class="redes-sociais" src="./img/003-twitter.png" alt=""></a>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="menu-top" >
+                <ul class="header-menu">
+                    <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main">
+        <section style="overflow-x: scroll;" class="carousel">
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr class="table categorias">
+                            <th>Município</th>
+                            <th>Inicio da obra</th>
+                            <th>Fim previsto</th>
+                            <th>Descrição</th>
+                            <th>Empresa contratada</th>
+                            <th>Secretaria/Orgão</th>
+                            <th>Situação</th>
+                            <th>Valor</th>
+                            <th>Possível prejuízo</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="alert alert-success acopiara">
+                            <td>ACOPIARA</td>
+                            <td>10/07/2018
+                            </td>
+                            <td>07/05/2020
+                            </td>
+                            <td>OBRA DE CONSTRUÇÃO DE ESCOLAS DE ENSINO MÉDIO, NO MUNICÍPIO DE ACOPIARA-CE (ASSENTAMENTO SÃO PAULINO
+                            </td>
+                            <td>BWS CONSTRUÇÕES LTDA
+                            </td>
+                            <td>SEDUC
+                            </td>
+                            <td>Concluída
+                            </td>
+                            <td>2859691,21
+                            </td>
+                            <td>0
+                            </td>
+                        </tr>
+                        <tr class="alert alert-danger acopiara">
+                            <td>ACOPIARA</td>
+                            <td>15/03/2010
+                            </td>
+                            <td>12/09/2012
+                            </td>
+                            <td>AMPLIAÇÃO DE UMA ESCOLA EEEP ALFREDO NUNES DE MELO NO MUNICIPIO DE ACOPIARA
+                            </td>
+                            <td>FEC LTDA
+                            </td>
+                            <td>SEDUC
+                            </td>
+                            <td>Cancelada
+                            </td>
+                            <td>608767,95
+                            </td>
+                            <td>61668,19
+                            </td>
+                        </tr>
+                        <tr class="alert alert-success acopiara">
+                            <td>ACOPIARA</td>
+                            <td>01/10/2010
+                            </td>
+                            <td>20/09/2012
+                            </td>
+                            <td>EXECUÇÃO DAS OBRAS DE SISTEMA DE ABASTECIMENTO DE ÁGUAS NAS COMUNIDADES RURAIS SITUADAS NOS 08(OITO) MUNICÍPIO DE BOA VIAGEM,CANINDE,PEDRA BRANCA,QUITERIANÓPOLIS,TAUÁ,ACOPIARA,CATARINA,E IGUATU ESTADO DO CEARÁ LOTE Nº1
+                            </td>
+                            <td>JR COMÉRCIO
+                            </td>
+                            <td>SDA
+                            </td>
+                            <td>Concluída
+                            </td>
+                            <td>360509,04
+                            </td>
+                            <td>0
+                            </td>
+                        </tr>
+                    </tbody>
+                    
+                    
+
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="scripts/dados.js"></script>
+
+</html>

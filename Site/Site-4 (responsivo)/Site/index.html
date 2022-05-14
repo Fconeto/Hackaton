@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/Home-estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./img/casa.png" alt=""></a>
+            </div>
+
+            <div class="menu-hamb" >
+                <div class="menu-toggle" onclick="openMenu()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu-mobile">
+                    <ul class="header-menu">
+                        <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                        <li ><a class="login"  href="login.html">LOGIN</a></li>
+                        <li ><a class="cadastro" href="cadastro.html">CADASTRO</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="menu-top" >
+                <ul class="header-menu">
+                    <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section  class="busca_cont">
+            <div class="busca">
+                <select  onchange="mostraAlerta()" name="pesquisa" id="search">
+                    <option value="FORTALEZA">Fortaleza</option>
+                    <option value="ACOPIARA ">Acopiara</option>
+                    <option value="AIUABA ">Aiuaba</option>
+                    <option selected value="CRATEUS ">Crateús</option>
+
+                    
+                </select>
+            </div>
+        </section>
+    </main>
+
+    <main>
+        <section class="carousel">
+            <div class="content">
+                <div>
+                    <h2>COMO FUNCIONA</h2>
+                    <P>Digite ou selecione na ferramenta de busca o nome da cidade
+                        desejada para pesquisar a situação das obras públicas
+                    </P>
+                    <div class="tela">
+                        <div class="lupa">Cr</div>
+                        <div class="abas">Crateús</div>
+                        <div class="abas">Crato</div>
+                        <div class="abas">Croatá</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+<script src="./scripts/script.js"></script>
+<script src="./scripts/dados.js"></script>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/obra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./img/casa.png" alt=""></a>
+            </div>
+
+            <div class="menu-hamb" >
+                <div class="menu-toggle" onclick="openMenu()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu-mobile">
+                    <ul class="header-menu">
+                        <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                        <li ><a class="login"  href="login.html">LOGIN</a></li>
+                        <li ><a class="cadastro" href="cadastro.html">CADASTRO</a></li>
+                    </ul>
+                    <div>
+                        <a  href=""><img class="redes-sociais" src="./img/facebook.png" alt=""></a>
+                        <a  href=""><img class="redes-sociais" src="./img/005-instagram.png" alt=""></a>
+                        <a  href=""><img class="redes-sociais" src="./img/003-twitter.png" alt=""></a>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="menu-top" >
+                <ul class="header-menu">
+                    <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main">
+        <section style="overflow-x: scroll;" class="carousel">
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr class="table categorias">
+                            <th>Município</th>
+                            <th>Inicio da obra</th>
+                            <th>Fim previsto</th>
+                            <th>Descrição</th>
+                            <th>Empresa contratada</th>
+                            <th>Secretaria/Orgão</th>
+                            <th>Situação</th>
+                            <th>Valor</th>
+                            <th>Possível prejuízo</th>
+                        </tr>
+                    </thead>
+
+                    <tbody> 
+                        <tr class="alert alert-warning aiuaba">
+                            <td>Aiuaba</td>
+                            <td>12/12/2019</td>
+                            <td>12/06/2020</td>
+                            <td>CONSTRUÇÃO DE ESCOLA DE ENSINO MÉDIO NA ÁREA RURAL REFERENTE AO LOTE II, NO MUNICIPIO DE AIUABA/CE (BARRA)</td>
+                            <td>SOCCER</td>
+                            <td>SOP</td>
+                            <td>Concluída</td>
+                            <td>138.082,88</td>
+                            <td>0</td>
+                         
+                        </tr>
+                        <tr class="alert alert-danger aiuaba">
+                            <td>Aiuaba</td>
+                            <td>30/11/2017</td>
+                            <td>28/01/2020</td>
+                            <td>OBRAS DE CONSTRUÇÕES DE MÓDULOS SANITÁRIOS TPO 09 E TIPO 11, NOS PADRÕES DA FUNASA, EM DIVIERSOS MUNICÍPIOS DO ESTADO DO CEARÁ LOTE 01</td>
+                            <td>CONSTRUTORA CORREIA LIMA</td>
+                            <td>SEDUC</td>
+                            <td>Em execuçâo</td>
+                            <td>1.443.921,46</td>
+                            <td>70174,58296
+                            </td>
+                        </tr>
+                        <tr class="alert alert-success aiuaba">
+                            <td>Aiuaba</td>
+                            <td>22/10/2020</td>
+                            <td>11/11/2020</td>
+                            <td>OBRAS DE CONSTRUÇÕES DE MÓDULOS SANITÁRIOS TPO 09 E TIPO 11, NOS PADRÕES DA FUNASA, EM DIVIERSOS MUNICÍPIOS DO ESTADO DO CEARÁ LOTE 01</td>
+                            <td>SALINAS</td>
+                            <td>SPS</td>
+                            <td>Em execuçâo</td>
+                            <td>40.771,2</td>
+                            <td>0</td>
+                         
+                        </tr>
+                        <tr class="alert alert-success aiuaba">
+                            <td>Aiuaba</td>
+                            <td>28/07/2010</td>
+                            <td>26/10/2015</td>
+                            <td>CONCLUSÃO DA CONSTRUÇÃO DE UMA ESCOLA DE ENSINO MÉDIO EM ÁREA RURAL, NA LOCALIDADE DE BARRA, NO MUNICÍPIO DE AIUABA - CE</td>
+                            <td>COSAMPA</td>
+                            <td>SDA</td>
+                            <td>Cancelada</td>
+                            <td>1.952.043.59</td>
+                            <td>0</td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                    
+                    
+
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="scripts/dados.js"></script>
+
+</html>

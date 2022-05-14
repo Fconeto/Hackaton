@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/obra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./img/casa.png" alt=""></a>
+            </div>
+
+            <div class="menu-hamb" >
+                <div class="menu-toggle" onclick="openMenu()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu-mobile">
+                    <ul class="header-menu">
+                        <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                        <li ><a class="login"  href="login.html">LOGIN</a></li>
+                        <li ><a class="cadastro" href="cadastro.html">CADASTRO</a></li>
+                    </ul>
+                    <div>
+                        <a  href=""><img class="redes-sociais" src="./img/facebook.png" alt=""></a>
+                        <a  href=""><img class="redes-sociais" src="./img/005-instagram.png" alt=""></a>
+                        <a  href=""><img class="redes-sociais" src="./img/003-twitter.png" alt=""></a>
+                    </div>
+                </nav>
+            </div>
+            
+            <div class="menu-top" >
+                <ul class="header-menu">
+                    <li ><a class="sobre" href="sobre.html">SOBRE</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main">
+        <section style="overflow-x: scroll;" class="carousel">
+            <div class="content">
+                <table>
+                    <thead>
+                        <tr class="table categorias">
+                            <th>Município</th>
+                            <th>Inicio da obra</th>
+                            <th>Fim previsto</th>
+                            <th>Descrição</th>
+                            <th>Empresa contratada</th>
+                            <th>Secretaria/Orgão</th>
+                            <th>Situação</th>
+                            <th>Valor</th>
+                            <th>Possível prejuízo</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="alert alert-success fortaleza">
+                            <td>FORTALEZA
+                            </td>
+                            <td>11/12/2020
+                            </td>
+                            <td>31/12/2020
+                            </td>
+                            <td>SERVIÇO DE ASSENTAMENTO DE PISO EMBORRACHADO, ANTI-IMPACTO E DRENANTE, COM FORNECIMENTO DE MATERIAL, PARA AS OBRAS DO PROGRAMA MAIS INFÂNCIA CEARÁ, NO MUNICÍPIO DE FORTALEZA - FORTALEZA - PRAÇA JUVENTUDE
+                            </td>
+                            <td>SM
+                            </td>
+                            <td>SPS
+                            </td>
+                            <td>Em Execução
+                            </td>
+                            <td>59093,95
+                            </td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="alert alert-success fortaleza">
+                            <td>FORTALEZA
+                            </td>
+                            <td>11/12/2020
+                            </td>
+                            <td>31/12/2020
+                            </td>
+                            <td>SERVIÇOS DE MONTAGEM DE SISTEMA DE FECHAMENTO PARA ESPAÇOS ABERTOS DO TIPO GRADIL NA MODALIDADE BRINQUEDOPRAÇA COM FORNECIMENTO DE MATERIAL, NO MUNICÍPIO DE FORTALEZA, ONDE SERÃO IMPLANTADAS BRINQUEDOPRAÇAS, ATENDENDO AO PROGRAMA MAIS INFÂNCIA CEARÁ - FORTALEZA - PRAÇA DA JUVENTUDE
+                            </td>
+                            <td>COSAMPA</td>
+                            <td>SDA</td>
+                            <td>Cancelada</td>
+                            <td>1.952.043.59</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                    
+                    
+
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="scripts/dados.js"></script>
+
+</html>
